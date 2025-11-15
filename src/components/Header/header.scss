@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    width: 35%;
+    padding: 1rem 0.3rem;
+  }
+
+  ul {
+    display: flex;
+    cursor: pointer;
+    gap: 1rem;
+
+    li {
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        color: #000000;
+
+        &:hover {
+          color: #cf30b5;
+          transition: 0, 3s;
+        }
+      }
+    }
+  }
+}
