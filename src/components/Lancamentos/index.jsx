@@ -10,7 +10,7 @@ function Lancamentos() {
   return (
     <>
       <h2>APROVEITE OS LANÇAMENTOS</h2>
-      <img src={cor} alt="" />
+      <img src={cor} alt="Imagem de uma mulher com batom" />
       <button onClick={() => setCor(vermelho)}>Vermelho</button>
       <button onClick={() => setCor(azul)}>Azul</button>
       <button onClick={() => setCor(marrom)}>Marrom</button>
