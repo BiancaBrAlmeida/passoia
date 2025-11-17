@@ -11,7 +11,10 @@ function Header() {
   return (
     <header>
       <img src={logo} alt="Logo" />
-      <nav className={`${"menu"} ${aberto ? "mostrar" : ""}`}>
+      <nav
+        className={`${"menu"} ${aberto ? "mostrar" : ""}`}
+        onClick={toggleMenu}
+      >
         {/* <button className="btn_menu">
           <svg
             xmlns="http://www.w3.org/2000/svg"
