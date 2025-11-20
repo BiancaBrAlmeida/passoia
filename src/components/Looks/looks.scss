@@ -1,0 +1,60 @@
+h2 {
+  font-family: "roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+  font-size: 30px;
+}
+
+.looks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  .cards {
+    display: flex;
+    width: 50%;
+    padding: 1.5rem 1rem;
+    position: relative;
+
+    .cards_img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 1px 1px 10px #868686;
+    }
+
+    .titles {
+      font-family: "roboto", sans-serif;
+      position: absolute;
+      font-weight: 700;
+      top: 85%;
+      left: 10%;
+      color: #ffffff;
+      font-size: 30px;
+    }
+  }
+
+  .cards-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 768px) {
+  .looks .cards {
+    width: 25%;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    text-align: center;
+  }
+  .looks .cards {
+    width: 100%;
+    justify-content: center;
+  }
+}

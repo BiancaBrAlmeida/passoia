@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Banner from "./components/Banner";
+import Looks from "./components/Looks";
 import Lancamentos from "./components/Lancamentos";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header />
       <Banner />
+      <Looks />
       <Lancamentos />
     </>
   );
