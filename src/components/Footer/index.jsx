@@ -12,7 +12,7 @@ function Footer() {
   return (
     <footer>
       <section className="footer_atend">
-        <h3>ATENDIMENTO</h3>
+        <h4>ATENDIMENTO</h4>
         <ul>
           <li>
             <a href="">Fale Conosco</a>
@@ -29,7 +29,7 @@ function Footer() {
         </ul>
       </section>
       <section className="footer_pag">
-        <h3>FORMAS DE PAGAMENTO</h3>
+        <h4>FORMAS DE PAGAMENTO</h4>
         <div className="footer_pag_icon">
           <img
             className="img_pag_icon"
@@ -42,7 +42,7 @@ function Footer() {
         </div>
       </section>
       <section className="footer_redes">
-        <h3>SIGA-NOS NAS REDES SOCIAIS</h3>
+        <h4>SIGA-NOS NAS REDES SOCIAIS</h4>
         <div className="footer_redes_icon">
           <img
             className="img_redes_icon"

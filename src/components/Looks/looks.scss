@@ -50,8 +50,9 @@ h2 {
 }
 
 @media (min-width: 768px) {
-  .looks .cards {
-    width: 25%;
+  .looks {
+    width: 100%;
+    flex-wrap: nowrap;
   }
 }
 
