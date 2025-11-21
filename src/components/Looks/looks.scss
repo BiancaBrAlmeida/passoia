@@ -4,6 +4,7 @@ h2 {
   justify-content: center;
   margin: 3rem 0 2rem;
   font-size: 30px;
+  color: #2d2d2d;
 }
 
 .looks {
@@ -23,6 +24,11 @@ h2 {
       object-fit: cover;
       border-radius: 10px;
       box-shadow: 1px 1px 10px #868686;
+
+      &:hover {
+        box-shadow: 1px 1px 10px #cf30b5;
+        transition: 0 3s;
+      }
     }
 
     .titles {
